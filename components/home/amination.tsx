@@ -4,7 +4,7 @@ import Lottie from 'react-lottie-player'
 // Alternatively:
 // import Lottie from 'react-lottie-player/dist/LottiePlayerLight'
 
-import lottieJson from '../../public/assets/developerAni.json'
+import lottieJson from '../../public/assets/bottomArrowAni.json'
 
 export default function Animation() {
   return (
@@ -12,7 +12,7 @@ export default function Animation() {
       loop
       animationData={lottieJson}
       play
-      style={{ width: 350, height: 350 }}
+      style={{ width: 200, height: 200 }}
     />
   )
 }
