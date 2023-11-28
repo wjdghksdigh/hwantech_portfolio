@@ -23,15 +23,15 @@ const Header = () => {
   }, [scrollY]);
 
   return (
-    <div
-      className={` items-center shadow-bottom fixed z-10 flex w-full justify-between  border-gray-400 px-16 py-8 backdrop-blur transition duration-500 ease-in-out ${
-        show ? '' : 'transparent'
-      }`}
-    >
+      <div
+        className={`items-center shadow-bottom fixed z-10 flex w-full justify-center border-gray-400 px-16 py-8 backdrop-blur transition duration-500 ease-in-out ${
+          show ? '' : 'transparent'
+        }`}
+      >
       <Link href="/">
         <div> hwantech </div>
       </Link>
-      <div className="inline-flex items-center justify-center">
+      <div className="inline-flex items-center justify-center sm:ml-auto">
         <HeaderButton name="Home" />
         <HeaderButton name="About" />
         <HeaderButton name="Projects" />

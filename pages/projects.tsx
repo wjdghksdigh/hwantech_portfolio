@@ -4,18 +4,13 @@
 import Content from "@/components/layout/content";
 
 //component
-import ProjectCard
- from "@/components/projects/projectCard";
-// import { TOKEN, DATABASE_ID } from "@/config";
-// import { GetStaticProps, GetStaticPropsResult } from 'next';
-// import { NotionRequest, NotionResponse, NotionProps } from "@/type/notion";
-// import { useState, useEffect } from 'react';
+import ProjectList from "@/components/projects/projectList";
 
 export default function Projects() {
   return (
     <Content id="Projects">
-      <div className="min-h-screen px-[200px] py-[200px]">
-        <ProjectCard />
+      <div className="min-h-screen lg:px-[200px] lg:py-[100px]">
+        <ProjectList />
       </div>
     </Content>
   );
