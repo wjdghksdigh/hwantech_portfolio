@@ -3,15 +3,15 @@ import Content from "@/components/layout/content"
 
 //component
 import Gallery from "@/components/about/gallery"
-import Tab from "@/components/about/tab"
+import Profile from "@/components/about/profile"
 
 
 export default function About() {
   return(
     <Content id="About">
-      <div className="min-h-screen lg:px-[200px] lg:py-[200px]">
+      <div>
         <Gallery />
-        <Tab />
+        <Profile />
       </div>
     </Content>
   )
