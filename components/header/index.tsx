@@ -29,7 +29,7 @@ const Header = () => {
         }`}
       >
       <Link href="/">
-        <div> hwantech </div>
+        <div className="text-baby-sky"> hwantech </div>
       </Link>
       <div className="inline-flex items-center justify-center sm:ml-auto">
         <HeaderButton name="Home" />
