@@ -18,6 +18,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     colors: {
+      'sky-blue' : '#5D95E8',
+      'sky-lightBlue': '#59A8E8',
       'baby-sky' : '#9EB8D9',
     },
     },

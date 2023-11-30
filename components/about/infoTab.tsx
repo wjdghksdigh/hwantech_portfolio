@@ -6,6 +6,12 @@ import lottieJson from '../../public/assets/animation/infoAni.json'
 //library
 import Lottie from 'react-lottie-player';
 
+// icons
+import { CiLink } from "react-icons/ci";
+
+// handler
+import { handleGithubClick, handleTistoryClick, handleNotionClick } from '@/utils/handler';
+
 const InfoTab = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -45,7 +51,29 @@ const InfoTab = () => {
               <p className="leading-relaxed text-sm mb-2">주소: 경기도 광주시</p>
               <p className="leading-relaxed text-sm mb-4">이메일: wjdghksdigh12@gmail.com</p>
               <p className="leading-relaxed text-sm ">Next.js, typesScript, React 기반의 프론트엔드 개발자를 희망하는 김정환입니다.</p>
-              <p className="leading-relaxed text-sm mb-4">Github를 활용하여 팀개발을 진행하고, 꾸준히 블로깅하여 공부하였습니다.</p>
+              <p className="leading-relaxed text-sm mb-4">Github를 활용하여 팀개발을 진행하고, 꾸준히 블로깅하여 공부하고있습니다.</p>
+
+              <button
+                className="text-gray-400 text-sm flex items-center justify-center gap-2 hover:text-baby-sky"
+                onClick={handleGithubClick}
+              >
+                <CiLink />
+                GitHub
+              </button>
+              <button
+                className="text-gray-400 text-sm flex items-center justify-center gap-2 hover:text-baby-sky"
+                onClick={handleTistoryClick}
+              >
+                <CiLink />
+                Tistory
+              </button>
+              <button
+                className="text-gray-400 text-sm flex items-center justify-center gap-2 hover:text-baby-sky"
+                onClick={handleNotionClick}
+              >
+                <CiLink />
+                Notion
+              </button>
             </div>
           </div>
         </div>

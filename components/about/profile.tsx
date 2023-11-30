@@ -9,9 +9,14 @@ import HobbyTab from "./hobbyTab";
 
 const Profile = () => {
   const [selectTab, setSelectTab] = useState<string>('Info');
+  const [indicatorHeight, setIndicatorHeight] = useState<number>(0);
 
   const handleTabClick = (tab: string): void => {
     setSelectTab(tab);
+    const tabElement = document.getElementById(tab);
+    if (tabElement) {
+      setIndicatorHeight(tabElement.clientHeight);
+    }
   };
 
   const renderTabContent = () => {

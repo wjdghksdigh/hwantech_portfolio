@@ -3,7 +3,7 @@ import Image from 'next/image';
 // Type
 import { ProjectType } from '@/type/project';
 
-// event 함수
+// handler
 import { handleGithubLinkClick, handleYoutubeLinkClick, handleAddressLinkClick } from '@/utils/handler';
 
 // icons
