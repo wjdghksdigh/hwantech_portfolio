@@ -48,7 +48,7 @@ const Gallery = () => {
               <Image
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="/assets/images/gallery04.jpg"
+                src="/assets/images/gallery04.JPG"
                 width={502}
                 height={302}
               />
@@ -57,7 +57,7 @@ const Gallery = () => {
               <Image
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="/assets/images/gallery05.jpg"
+                src="/assets/images/gallery05.JPG"
                 width={503}
                 height={303}
               />
