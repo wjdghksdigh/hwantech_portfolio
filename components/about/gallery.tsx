@@ -46,7 +46,7 @@ const Gallery = () => {
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <Image
-                alt="gallery"
+                alt="gallery04"
                 className="w-full object-cover h-full object-center block"
                 src="/assets/images/gallery04.jpg"
                 width={502}
