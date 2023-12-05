@@ -40,7 +40,7 @@ const Header = () => {
     //   </div>
     // </div>
 
-  <header className="flex items-center justify-center text-gray-600 body-font bg-white ">
+  <header className="flex items-center justify-center body-font bg-white ">
     <div className="container mx-auto fixed flex flex-wrap p-4 flex-col md:flex-row w-[500px] mt-24 z-1 border items-center border-gray-100 shadow-lg text-center rounded-3xl">
       <div className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <HeaderButton name="Home" />

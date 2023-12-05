@@ -21,8 +21,16 @@ h6 {
     @apply text-slate-900 dark:text-white
 }
 
+span {
+    @apply text-slate-900 dark:text-white
+}
+
+header {
+    @apply text-gray-600 dark:text-white
+}
+
 footer {
-    @apply text-gray-600 dark:text-white bg-gray-100 dark:bg-slate-600/20
+    @apply text-gray-600 dark:text-white
 }
 
 a {
