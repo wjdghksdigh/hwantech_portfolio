@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { BeatLoader } from 'react-spinners';
+
+// Spinner
+import { DotLoader } from 'react-spinners';
+
 
 const HobbyTab = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -23,62 +26,41 @@ const HobbyTab = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="flex items-center justify-center mx-auto xl:w-1/3 md:w-1/2 p-4">
-            <div className="p-6 rounded-lg relative">
-              <div className={`h-40 rounded w-full object-cover object-center mb-6 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
-                <Image
-                  src="/assets/images/hobbyTab_usa.png"
-                  alt="hobby"
-                  width={720}
-                  height={400}
-                  onLoadingComplete={handleImageLoad}
-                />
-              </div>
-              {!imageLoaded && (
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                  <BeatLoader color="#000" size={16} margin={2} />
-                </div>
-              )}
+            <div className="p-6 rounded-lg">
+              <Image
+                className="h-40 rounded w-full object-cover object-center mb-6"
+                src="/assets/images/hobbyTab_usa.png"
+                alt="hobby"
+                width={720}
+                height={400}
+              />
               <h2 className="flex items-center justify-center mx-auto text-lg text-gray-900 font-medium title-font mb-4">U.S.A</h2>
             </div>
           </div>
           <div className="flex items-center justify-center mx-auto xl:w-1/3 md:w-1/2 p-4">
-            <div className="p-6 rounded-lg relative">
-              <div className={`h-40 rounded w-full object-cover object-center mb-6 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
-                <Image
-                  src="/assets/images/hobbyTab_japan.jpg"
-                  alt="hobby"
-                  width={720}
-                  height={400}
-                  onLoadingComplete={handleImageLoad}
-                />
-              </div>
-              {!imageLoaded && (
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                  <BeatLoader color="#000" size={16} margin={2} />
-                </div>
-              )}
+            <div className="p-6 rounded-lg">
+              <Image
+                className="h-40 rounded w-full object-cover object-center mb-6"
+                src="/assets/images/hobbyTab_japan.jpg"
+                alt="hobby"
+                width={720}
+                height={400}
+              />
               <h2 className="flex items-center justify-center mx-auto text-lg text-gray-900 font-medium title-font mb-4">Japan</h2>
             </div>
           </div>
           <div className="flex items-center justify-center mx-auto xl:w-1/3 md:w-1/2 p-4">
-            <div className="p-6 rounded-lg relative">
-              <div className={`h-40 rounded w-full object-cover object-center mb-6 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
-                <Image
-                  src="/assets/images/hobbyTab_bangkok.jpg"
-                  alt="hobby"
-                  width={720}
-                  height={400}
-                  onLoadingComplete={handleImageLoad}
-                />
-              </div>
-              {!imageLoaded && (
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                  <BeatLoader color="#000" size={16} margin={2} />
-                </div>
-              )}
+            <div className="p-6 rounded-lg">
+              <Image
+                className="h-40 rounded w-full object-cover object-center mb-6"
+                src="/assets/images/hobbyTab_bangkok.jpg"
+                alt="hobby"
+                width={720}
+                height={400}
+              />
               <h2 className="flex items-center justify-center mx-auto text-lg text-gray-900 font-medium title-font mb-4">Bangkok</h2>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </section>

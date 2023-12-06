@@ -1,4 +1,6 @@
 import React, { ReactNode, useState, useEffect } from 'react';
+
+// Spinner
 import { DotLoader } from 'react-spinners';
 
 // component
@@ -23,7 +25,6 @@ export default function Layout({ id, children }: LayoutProps) {
       setLoading(false);
     };
 
-    // Call the fetchData function
     fetchData();
   }, []);
 

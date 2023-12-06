@@ -1,5 +1,4 @@
 
-import { Inter } from 'next/font/google'
 
 //component
 import Layout from '@/components/layout/layout'
@@ -9,8 +8,6 @@ import Projects from './projects'
 
 //component
 import Introduce from '@/components/home/introduce'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
