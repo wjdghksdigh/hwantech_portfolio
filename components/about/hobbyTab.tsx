@@ -15,7 +15,7 @@ const HobbyTab = () => {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          <div className="xl:w-1/3 md:w-1/2 p-4">
+          <div className="flex items-center justify-center mx-auto xl:w-1/3 md:w-1/2 p-4">
             <div className="p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
@@ -24,10 +24,10 @@ const HobbyTab = () => {
                 width={720}
                 height={400}
               />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">U.S.A</h2>
+              <h2 className="flex items-center justify-center mx-auto text-lg text-gray-900 font-medium title-font mb-4">U.S.A</h2>
             </div>
           </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
+          <div className="flex items-center justify-center mx-auto xl:w-1/3 md:w-1/2 p-4">
             <div className="p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
@@ -36,10 +36,10 @@ const HobbyTab = () => {
                 width={720}
                 height={400}
               />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Japan</h2>
+              <h2 className="flex items-center justify-center mx-auto text-lg text-gray-900 font-medium title-font mb-4">Japan</h2>
             </div>
           </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
+          <div className="flex items-center justify-center mx-auto xl:w-1/3 md:w-1/2 p-4">
             <div className="p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
@@ -48,7 +48,7 @@ const HobbyTab = () => {
                 width={720}
                 height={400}
               />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Bangkok</h2>
+              <h2 className="flex items-center justify-center mx-auto text-lg text-gray-900 font-medium title-font mb-4">Bangkok</h2>
             </div>
           </div> 
         </div>
