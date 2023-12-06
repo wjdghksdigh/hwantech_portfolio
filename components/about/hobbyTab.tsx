@@ -19,7 +19,7 @@ const HobbyTab = () => {
             <div className="p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src="/assets/images/hobbyTab_usa.jpg"
+                src="/assets/images/hobbyTab_usa.png"
                 alt="hobby"
                 width={720}
                 height={400}
