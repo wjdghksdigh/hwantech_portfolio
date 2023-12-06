@@ -36,7 +36,7 @@ const InfoTab = () => {
                 src="/assets/images/resume_pic.jpg" 
                 alt="Profile Image"
                 width={100}
-                height={100}
+                height={133}
               />
               </div>
               <div className="flex flex-col items-center text-center justify-center">

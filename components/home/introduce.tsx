@@ -19,6 +19,7 @@ export default function Introduce() {
           alt="Profile Image"
           width={300}
           height={300}
+          priority
         />
         <div className="text-center lg:w-2/3 w-full">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
