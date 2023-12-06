@@ -10,7 +10,7 @@ export default function Introduce() {
   const animationData = lottieJson;
 
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
+    <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font position:relative z-20">
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <Image
           className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
@@ -28,12 +28,14 @@ export default function Introduce() {
             컴퓨터 소프트웨어 공학과를 진학하여, 저에게 맞는 분야가 무엇일지 고민하였습니다. 평소 사이트의 UI/UX의 흥미를 느끼고 왜 이 배너는 이 위치에 있을지 궁금해 하던 저를 발견해 프론트엔드 분야에 빠져들었고 이젠 풀스택을 도전하는 개발자가 되려고 합니다. 잘 부탁드립니다.
           </p>
         </div>
-        <Lottie
-          loop
-          animationData={lottieJson}
-          play
-          style={{ width: 200, height: 200, color: 'text-white' }}
-        />
+        <div>
+          <Lottie
+            loop
+            animationData={lottieJson}
+            play
+            style={{width: 200, height: 200, color: 'text-white'}}
+          />
+        </div>
       </div>
     </section>
   );

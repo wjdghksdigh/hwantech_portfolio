@@ -31,7 +31,7 @@ export const Projectitem = [
     imageUrl: '/assets/images/portfolio_img.png',
     githubUrl:'https://github.com/wjdghksdigh/hwantech_portfolio',
     youtubeUrl:'',
-    address:'',
+    address:'https://hwantech-portfolio.vercel.app/',
     hashtags: ['next.js', 'tailwind css', 'node.js','vercel'],
   },
 ];
