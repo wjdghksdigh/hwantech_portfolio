@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Gallery = () => {
   return (
-    <section className="text-gray-600 body-font min-h-screen lg:px-[200px] lg:py-[150px]">
+    <section className="text-gray-600 body-font lg:px-[200px] lg:py-[100px]">
       <div className="container px-5 py-2 mx-auto flex flex-wrap ">
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">

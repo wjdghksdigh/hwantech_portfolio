@@ -20,7 +20,7 @@ const HobbyTab = () => {
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="/assets/images/hobbyTab_usa.jpg"
-                alt="content"
+                alt="hobby"
                 width={720}
                 height={400}
               />
@@ -32,7 +32,7 @@ const HobbyTab = () => {
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="/assets/images/hobbyTab_japan.jpg"
-                alt="content"
+                alt="hobby"
                 width={720}
                 height={400}
               />
@@ -44,7 +44,7 @@ const HobbyTab = () => {
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="/assets/images/hobbyTab_bangkok.jpg"
-                alt="content"
+                alt="hobby"
                 width={720}
                 height={400}
               />
