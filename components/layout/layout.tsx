@@ -1,25 +1,46 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState, useEffect } from 'react';
+import { DotLoader } from 'react-spinners';
 
-//component
+// component
 import Header from '../header';
 import Footer from '../footer';
 import Content from './content';
 
 interface LayoutProps {
   id: string;
-  children: React.ReactNode;
+  children: ReactNode;
   style?: string;
 }
 
-export default function Layout({  id, children }: LayoutProps) {
+export default function Layout({ id, children }: LayoutProps) {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an asynchronous operation, e.g., fetching data
+    const fetchData = async () => {
+      // Simulating a delay of 2 seconds
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      setLoading(false);
+    };
+
+    // Call the fetchData function
+    fetchData();
+  }, []);
+
   return (
     <div className='bg-primary'>
       <Header />
-      <Content id={id}>
-        <div className="min-h-screen px-[100px] py-[100px]">
-        {children}
+      {loading ? (
+        <div className="flex items-center justify-center min-h-screen">
+          <DotLoader color="#9EB8D9" />
         </div>
-      </Content>
+      ) : (
+        <Content id={id}>
+          <div className="min-h-screen px-[100px] py-[100px]">
+            {children}
+          </div>
+        </Content>
+      )}
       <Footer />
     </div>
   );
