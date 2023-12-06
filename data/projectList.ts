@@ -19,7 +19,7 @@ export const Projectitem = [
     date: '2023.07.01 - 2023.10.28',
     imageUrl: '/assets/images/vblog_img.png',
     githubUrl:'https://github.com/dmu-most/vblog-client',
-    youtubeUrl:'https://github.com/wjdghksdigh/hwantech_portfolio',
+    youtubeUrl:'https://www.youtube.com/watch?v=shRwySp-QFA',
     address:'http://dmu-vblog.s3-website.ap-northeast-2.amazonaws.com/',
     hashtags: ['react', 'styled-component', 'node.js','s3'],
   },
