@@ -37,7 +37,7 @@ export default function Layout({ id, children }: LayoutProps) {
         </div>
       ) : (
         <Content id={id}>
-          <div className="min-h-screen px-[100px] py-[100px]">
+          <div className="min-h-screen md:px-[100px] md:py-[100px]">
             {children}
           </div>
         </Content>

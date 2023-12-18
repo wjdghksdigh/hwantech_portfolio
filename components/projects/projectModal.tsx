@@ -17,7 +17,7 @@ interface ProjectModalProps {
 const ProjectModal: React.FC<ProjectModalProps> = ({ data, onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white p-6 rounded-md max-h-full overflow-y-auto">
+      <div className="bg-white p-6 rounded-md max-h-full overflow-y-auto mx-4 my-4">
         <Image
           alt="content"
           className="object-cover object-center h-full w-full"
